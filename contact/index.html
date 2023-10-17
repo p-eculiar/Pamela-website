@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pamela's Portfolio</title>
+    <link rel="shortcut icon" href="./images/the queenin me logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/lightbox.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("MHmjAxwBspi_3AQH6");
+   })();
+</script>
+</head>
+<body>
+    <section class="container section sec5 contact" id="contact">
+        <div class="contact-container">
+            <div class="main-title">
+                <h2>Contact <span>Us</span></h2>
+            </div>
+            <div class="contact-content-con">
+                <div class="left-contact">
+                    <h4>Contact Us here</h4>
+                    <p>
+                        For enquiries and information please contact us through this mediums.
+                        We're here to answer any question you might have. We look forward to hearing from you.
+                    </p>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            <p>Location
+                                <span>: Fort Worth Texas Metropolitan Area</span>
+                            </p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon">
+                                <i class="fas fa-envelope"></i>
+                            <p>Email
+                                <span>: thequeeninmeproject@gmail.com</span> 
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="contact-icon">
+                            <a href="https://web.facebook.com/profile.php?id=61550095834260" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://twitter.com/pamelabarn28773?t=GsJ3en_cpoaXO4fKZchzGg&s=08" target="_blank">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="https://instagram.com/the.queeninme?igshid=ZGUzMzM3NWJiOQ==" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                </div>
+                <div class="right-contact"  data-aos="zoom-in"
+                data-aos-offset="200"
+                data-aos-delay="20"
+                data-aos-duration="1500"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="false">
+                    <div class="alert-text">
+                        <h3>SENDING....</h3>
+                    </div>
+                    <form action="" class="contact-form">
+                        <div class="input-control i-c-2">
+                            <input type="text" required placeholder="YOUR NAME" id="name">
+                            <input type="email" required placeholder="YOUR EMAIL" id="email">
+                        </div>
+                        <div class="input-control">
+                            <input type="text" required placeholder="ENTER SUBJECT" id="subject">
+                        </div>
+                        <div class="input-control">
+                            <textarea name="" id="message" cols="15" rows="8" placeholder="Message Here..." id="message" required></textarea>
+                        </div>
+                        <div class="submit-btn">
+                            <a href="#" onclick="sendMessage()" class="sub-btn">
+                                <span class="btn-text">SEND</span>
+                                <span class="btn-icon"><i class="uil uil-message"></i></span>
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="controls">
+        <a href="../index.html" class="control  control-1" data-id="home" >
+            <h4>Home</h4>
+            <i class="fas fa-home"></i>
+        </a>
+        <a href="../about/index.html" class="control control-2 " data-id="about">
+            <h4>About</h4>
+            <i class="fas fa-user"></i>
+        </a>
+        <a href="../services/index.html" class="control control-3" data-id="services">
+            <h4>Services</h4>
+            <i class="fas fa-file-alt"></i>       
+        </a>
+        <a href="../projects/index.html" class="control control-4" data-id="portfolio">
+            <h4>Projects</h4>
+            <i class="fas fa-briefcase"></i>
+        </a>
+        <a href="../contact/index.html" class="control control-5 active-btn" data-id="contact">
+            <h4>Contact</h4>
+            <i class="fas fa-envelope-open"></i>
+        </a>
+    </div>
+
+    <div class="theme-btn">
+        <i class="uil uil-moon"></i>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="../javascript/lightbox-plus-jquery.js"></script>
+    <script src="../javascript/main.js"></script>
+</body>
+</html>
